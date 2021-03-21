@@ -29,7 +29,7 @@ mycursor=mydb.cursor()
 ## Create the database
 **mycursor.execute("CREATE DATABASE employees1")**
 # display your list of databases
-* mycursor.execute("SHOW DATABASES")
+mycursor.execute("SHOW DATABASES")
 
 ## loop through your databases
 for x in mycursor:
