@@ -26,7 +26,7 @@ mycursor=mydb.cursor()
 **mycursor.execute("CREATE DATABASE employees1")**
 # display your list of databases![create a database](https://user-images.githubusercontent.com/17750481/111886899-6bda1280-89e2-11eb-895c-f7aa50d18044.JPG)
 
-* mycursor.execute("SHOW DATABASES") *
+* mycursor.execute("SHOW DATABASES") 
 ## loop through your databases
 for x in mycursor:
   print(x)
