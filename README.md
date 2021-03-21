@@ -33,8 +33,9 @@ mycursor=mydb.cursor()
 
 ## loop through your databases
 for x in mycursor:
+    print(x)  
 ![image](https://user-images.githubusercontent.com/17750481/111898258-f435d300-8a35-11eb-8d03-62e8005e1ea1.png)
-  print(x)
+  
 
 ## Closing the connection
 mydb.close()
