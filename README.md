@@ -1,3 +1,4 @@
+
 # MySql_Python_ProjectsPerquisites
 1.	Install Python 
 2.	Check if you have administration or root priviledges
